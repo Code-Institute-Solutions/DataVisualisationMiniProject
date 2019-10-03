@@ -7,7 +7,7 @@ function makeGraphs(error, salaryData) {
     
     salaryData.forEach(function(d){
         d.salary = parseInt(d.salary);
-        d.yrs_service = parseInt(d["yrs_service"])
+        d.yrs_service = parseInt(d["yrs.service"])
     });
     
     show_discipline_selector(ndx);
